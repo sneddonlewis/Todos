@@ -15,9 +15,11 @@ PostgreSQL @ 9.6.21 (image pulled from docker)
 
 ## Get started
 
-run:  
+Pull a database container image and populate the db:  
 
-```docker-compose -f docker-compose.dev.yml up --build```
+```
+docker-compose -f docker-compose.dev.yml up --build
+```
 
 Run the web API:
 
@@ -37,5 +39,7 @@ The development client app will be served at `localhost:4200`
 
 ## Build for production
 
-```docker-compose up```
+```
+docker-compose up
+```
 
