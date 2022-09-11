@@ -35,7 +35,7 @@ cd webapp
 npm started
 ```
 
-The development client app will be served at `localhost:4200`
+The development client app will be served at `localhost:8080`
 
 ## Build for production
 

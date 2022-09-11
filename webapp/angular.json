@@ -72,7 +72,8 @@
               "browserTarget": "todos:build:production"
             },
             "development": {
-              "browserTarget": "todos:build:development"
+              "browserTarget": "todos:build:development",
+              "port": 8080
             }
           },
           "defaultConfiguration": "development"
