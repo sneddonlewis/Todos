@@ -13,7 +13,7 @@ npm
 
 PostgreSQL @ 9.6.21 (image pulled from docker)
 
-## Get started
+## Get started developing
 
 Pull a database container image and populate the db:  
 
@@ -32,7 +32,7 @@ Run the client app:
 
 ```
 cd webapp
-npm started
+npm start
 ```
 
 The development client app will be served at `localhost:8080`
