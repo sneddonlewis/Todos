@@ -9,6 +9,6 @@ WORKDIR /server
 RUN go build -o /go/bin/server
 
 FROM alpine:3.13.5
-COPY --from=JS_BUILD /webapp/build* ./webapp/
+COPY --from=JS_BUILD /webapp/dist/todos/* ./webapp/
 COPY --from=GO_BUILD /go/bin/server ./
 CMD ./server
