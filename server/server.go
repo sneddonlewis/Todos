@@ -30,6 +30,6 @@ func dataSource() string {
 		host = "db"
 		pass = os.Getenv("db_pass")
 	}
-	return "postgresql://" + host + ":5432/goxygen" +
-		"?user=goxygen&sslmode=disable&password=" + pass
+	return "postgresql://" + host + ":5432/todo" +
+		"?user=root&sslmode=disable&password=" + pass
 }
